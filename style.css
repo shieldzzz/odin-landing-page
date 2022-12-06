@@ -11,21 +11,42 @@ body {
 
 header { 
     background-color: #1f2937;
+    padding: 1em 10em;
 }
 
 #logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero {
+    margin: 6em 0 6em 0;
+    display: flex;
+}
+
+.hero .left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 29em;
 }
 
 .left h1 {
