@@ -45,7 +45,7 @@ a {
     justify-content: space-between;
 }
 
-.hero .left {
+.left {
     display: flex;
     flex-wrap: wrap;
     max-width: 29em;
@@ -55,8 +55,13 @@ a {
     display: flex;
     background-color: #6d747d;
     color: #e5e7eb;
-    padding: 2em 10em 2em 10em;
+    padding: 1em 9em 1em 9em;
+}
+
+.image {
+    display: flex;
     align-items: center;
+    margin: -2em;
 }
 
 .left h1 {
