@@ -89,7 +89,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 13em;
+    padding: 0 13em 4em 13em;
 }
 
 h2 {
@@ -125,4 +125,21 @@ img {
 .section-1 p {
    max-width: 150px;
    max-height: fit-content; 
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+   font-size: 36px;
+   font-style: italic;
+   font-weight:300; 
+   color: #1f2937;
+   padding:3em 8em 3em 8em;
 }
