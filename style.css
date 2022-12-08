@@ -12,7 +12,6 @@ body {
 header { 
     background-color: #1f2937;
     padding: 1em 10em;
-
 }
 
 #logo {
@@ -51,8 +50,7 @@ a {
     max-width: 29em;
 }
 
-/* Try to get button working without using a class selector */
-.button-1 {
+.left button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 600;
@@ -100,7 +98,7 @@ h2 {
     margin: 32px 0 25px 0;
 }
 
-.section-1 {
+.random {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -123,7 +121,7 @@ img {
     border-radius: 12px;
 }
 
-.section-1 p {
+.random p {
    max-width: 150px;
    max-height: fit-content; 
 }
