@@ -51,6 +51,7 @@ a {
     max-width: 29em;
 }
 
+/* Try to get button working without using a class selector */
 .button-1 {
     background-color: #3882f6;
     color: #f9faf8;
