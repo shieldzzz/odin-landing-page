@@ -177,3 +177,11 @@ img {
     border-radius: 6px;
     padding: 3px 26px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
