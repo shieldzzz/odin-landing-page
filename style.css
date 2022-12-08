@@ -152,9 +152,28 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6em 14em;
+    padding: 6em 10em;
 }
 
 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882f6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.call-left {
+    color: #f9faf8;
+}
+
+.call-right button {
+    color: #f9faf8;
+    font-weight: 600;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 3px 26px;
 }
